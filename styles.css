@@ -6,8 +6,8 @@
 }
 
 body{
-    /* background-color: black;
-    color: white */
+    background-color: black;
+    color: white
 }
 
 
@@ -26,6 +26,37 @@ body{
     width: 15px;
     gap : 15px;
     list-style: none;
+    padding: 22px 14px;
+    font-size: 13px;
+    font-style: bold;
+}
+
+.heading{
+    display: flex;
+    width: 100%;
+    gap : 15px;
     padding-top: 14px;
     font-style: bold;
+    align-items: center;
+}
+.heading img{
+    width: 20px;
+}
+
+.library{
+    min-height: 68vh;
+    position: relative;
+}
+
+.footer{
+    display: flex;
+    font-size: 10px;
+    color: grey;
+    gap: 13px;
+    position: absolute;
+    bottom: 0;
+}
+
+.footer a{
+    color: grey;
 }
