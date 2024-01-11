@@ -18,6 +18,7 @@ body{
 
 .right{
     width : 75vw;
+    margin: 16px;
 }
 
 
@@ -59,4 +60,36 @@ body{
 
 .footer a{
     color: grey;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(34,34,34);
+}
+.header > *{
+    padding : 20px;
+}
+
+.spotifyPlaylist{
+    padding : 16px;
+}
+.cardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.spotifyPlaylist .card{
+    width : 200px;
+    padding: 10px;
+    border-radius: 9px;
+    background-color: #252525;
+    font-size: 12px;
+}
+.card>*{
+    padding-top: 10px;
+}
+.card img{
+    width: 100%;
+    object-fit: contain;
 }
